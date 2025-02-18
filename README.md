@@ -58,6 +58,25 @@ Welcome to my GitHub profile! Here's a little bit about me:
 - Reading
 - Languages
 
+## 🌍 You can reach out to me in
+
+<table>
+  <tr style="text-align: center;">
+    <td>
+      <strong>Ukrainian 🇺🇦</strong>
+    </td>
+    <td>
+      <strong>English 🇺🇸 🇬🇧</strong>
+    </td>
+    <td>
+      <strong>Bulgarian 🇧🇬</strong>
+    </td>
+    <td>
+      <strong>Russian</strong>
+    </td>
+  </tr>
+</table>
+
 ## 📫 How to reach me
 - Email: vitaliyboyko@i.ua
 - Linkedin: [@vitalii-boiko](https://www.linkedin.com/in/vitalii-boiko-3ba269232/)
