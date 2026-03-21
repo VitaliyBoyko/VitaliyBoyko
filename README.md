@@ -18,28 +18,28 @@ Welcome to my GitHub profile! Here's a little bit about me:
 <table>
     <tr style="text-align: center;">
       <td>
-        <a href="https://www.credly.com/badges/5c9849a2-2edb-4cd4-9641-05628f0c1b68">
+        <a href="https://certification.adobe.com/credential/verify/eff8bd17-6186-11f0-9b2a-42010a400fc3">
           <strong>Adobe Certified Expert - Adobe Commerce Front-End Developer</strong><br>
           <img src="https://images.credly.com/images/a7479d8c-290e-4d98-a2e2-62d95125e7be/Adobe_Certified_Expert_Experience_Cloud_products_Digital_Badge.png" 
                alt="Adobe Certified Expert - Adobe Commerce Front-End Developer" width="100">
         </a>
       </td>
       <td>
-        <a href="https://www.credly.com/badges/45e4b3d6-eb61-4f30-8c97-a731b3d0aac9">
+        <a href="https://certification.adobe.com/credential/verify/f015a416-6186-11f0-9b2a-42010a400fc3">
           <strong>Adobe Certified Professional - Adobe Commerce Developer</strong><br>
           <img src="https://images.credly.com/images/48e73336-c91d-477f-a66f-3ad950acb597/Adobe_Certified_Professional_Experience_Cloud_products_Digital_Badge.png" 
                alt="Adobe Certified Professional - Adobe Commerce Developer" width="100">
         </a>
       </td>
       <td>
-        <a href="https://www.credly.com/badges/936436a5-e25d-4580-bd22-424a9eab08d1">
+        <a href="https://certification.adobe.com/credential/verify/efbae7ec-6186-11f0-9b2a-42010a400fc3">
           <strong>Adobe Certified Expert - Adobe Commerce Developer</strong><br>
           <img src="https://images.credly.com/images/a7479d8c-290e-4d98-a2e2-62d95125e7be/Adobe_Certified_Expert_Experience_Cloud_products_Digital_Badge.png" 
                alt="Adobe Certified Expert - Adobe Commerce Developer" width="100">
         </a>
       </td>
       <td>
-        <a href="https://www.credly.com/badges/2dba3fd6-c047-43c4-aa0e-0c1e9042b8b7">
+        <a href="https://certification.adobe.com/credential/verify/effc23b0-6186-11f0-9b2a-42010a400fc3">
           <strong>Adobe Certified Master – Adobe Commerce Architect</strong><br>
           <img src="https://images.credly.com/images/f5a62a29-50a0-4c7e-9926-6dedc410accf/Adobe_Certified_Master_Experience_Cloud_products_Digital_Badge.png" 
                alt="Adobe Certified Master – Adobe Commerce Architect" width="100">
