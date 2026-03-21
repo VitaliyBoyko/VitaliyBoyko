@@ -1,17 +1,22 @@
 # Hi there, I'm Vitalii Boiko 👋
 
-Welcome to my GitHub profile! Here's a little bit about me:
+Adobe Commerce architect and Magento developer focused on commercial delivery, developer tooling, test automation, and practical AI workflows.
 
-## 🔭 I'm currently working on
-- [Maintainer of the Magento PHPStorm plugin on JetBrains Marketplace](https://plugins.jetbrains.com/plugin/8024)
-- Magento/Adobe Commerce
-- NetSuite ERP
-- Cypress
-- IDE plugins development
+## 🔭 Current Focus
+- Commercial Magento and NetSuite projects for The Cary Company
+- Expanding Cypress automated test coverage
+- Integrating AI into the development workflow to improve code quality, connect testing processes, and speed up delivery
+- Maintaining the [Magento plugin for PhpStorm on JetBrains Marketplace](https://plugins.jetbrains.com/plugin/8024) in my spare time
 
-## 🤔 I’m looking for help with
+## 🌟 Featured Work & Recognition
+- Maintainer of the [Magento plugin for PhpStorm](https://plugins.jetbrains.com/plugin/8024)
+- Featured by Adobe: [Meet the world's top Magento ecommerce developers](https://business.adobe.com/blog/the-latest/meet-worlds-top-magento-ecommerce-developers)
+- Listed by Meetanshi: [Top 50 Contributors of Magento Community 2019](https://meetanshi.com/blog/top-50-contributors-of-magento-community-2019/)
+- Featured in the Magento Community year in review: [2020 Community Year in Review: Top GitHub Contributors](https://web.archive.org/web/20250206232437/https://community.magento.com/t5/Magento-DevBlog/2020-Community-Year-in-Review-Top-GitHub-Contributors/ba-p/466613)
+- Covered by Atwix: [Enhancing development productivity with PhpStorm Magento plugin](https://www.atwix.com/magento/enhancing-development-productivity-with-phpstorm-magento-plugin/)
 
-- Contributing to the Magento PHPStorm plugin
+## 🤔 Open Source
+- Contributions and feedback for the Magento plugin for PhpStorm are always welcome
 
 ## 📜 My Certifications
 
@@ -49,16 +54,19 @@ Welcome to my GitHub profile! Here's a little bit about me:
 </table>
 
 
-## 💬 Ask me about
+## 💬 Ask Me About
 
-- Programming
-- Open-source contributions
+- Adobe Commerce and Magento architecture
+- Commercial Magento delivery
+- NetSuite integrations and workflows
+- Cypress test automation
+- JetBrains plugin development
+- AI-assisted engineering workflows
 - Cycling
 - Yoga
 - Reading
-- Languages
 
-## 🌍 You can reach out to me in
+## 🌍 Languages
 
 <table>
   <tr style="text-align: center;">
@@ -77,9 +85,9 @@ Welcome to my GitHub profile! Here's a little bit about me:
   </tr>
 </table>
 
-## 📫 How to reach me
+## 📫 Reach Me At
 - Email: vitaliyboyko@i.ua
-- Linkedin: [@vitalii-boiko](https://www.linkedin.com/in/vitalii-boiko-3ba269232/)
+- LinkedIn: [@vitalii-boiko](https://www.linkedin.com/in/vitalii-boiko-3ba269232/)
 
 ## ⚡ Fun fact
 - My dad wanted me to be a "Real Man" so bad that I became a developer instead. 😄
