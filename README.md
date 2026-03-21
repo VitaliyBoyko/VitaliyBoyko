@@ -5,7 +5,7 @@ Welcome to my GitHub profile! Here's a little bit about me:
 ## 🔭 I'm currently working on
 - [Maintainer of the Magento PHPStorm plugin on JetBrains Marketplace](https://plugins.jetbrains.com/plugin/8024)
 - Magento/Adobe Commerce
-- NetSuite ERP (a little bit)
+- NetSuite ERP
 - Cypress
 - IDE plugins development
 
