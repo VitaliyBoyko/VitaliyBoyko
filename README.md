@@ -2,7 +2,7 @@
 
 <sub>Older records may list me as Vitaliy Boyko due to government transliteration updates.</sub>
 
-Adobe Commerce architect and Magento developer focused on commercial delivery, developer tooling, test automation, and practical AI workflows.
+Adobe Commerce architect and Magento developer with a focus on large B2B projects, developer tooling, test automation, and practical AI workflows. I help turn unstable projects into reliable systems, reconnect disconnected platforms, and restore control where delivery has become messy. I also consult, cutting through hype to focus on proven approaches and real business value.
 
 ## 🔭 Current Focus
 - Commercial Magento and NetSuite projects for The Cary Company
