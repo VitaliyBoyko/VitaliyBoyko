@@ -74,9 +74,6 @@ Adobe Commerce architect and Magento developer focused on commercial delivery, d
   </tr>
 </table>
 
-## 🤔 Open Source
-- Contributions and feedback for the Magento plugin for PhpStorm, Seq MCP, and magento-seq are always welcome
-
 ## 📜 My Certifications
 
 <table>
