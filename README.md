@@ -70,7 +70,6 @@ Adobe Commerce architect and Magento developer focused on commercial delivery, d
       <a href="https://packagist.org/packages/vitaliyboyko/magento-seq">
         <img src="https://img.shields.io/packagist/dt/vitaliyboyko/magento-seq" alt="magento-seq downloads">
       </a>
-      <a href="https://github.com/VitaliyBoyko/magento-seq">source</a>
     </td>
   </tr>
 </table>
