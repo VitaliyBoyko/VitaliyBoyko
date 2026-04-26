@@ -17,7 +17,6 @@ Adobe Commerce architect and Magento developer focused on commercial delivery, d
 - Drove performance and architectural improvements on large commercial Magento builds to strengthen stability and support long-term growth
 
 ## 🌟 Featured Work & Recognition
-- Published [magento-seq](https://packagist.org/packages/vitaliyboyko/magento-seq), a Magento 2 local-development Seq instrumentation module on Packagist
 - Featured by Adobe: [Meet the world's top Magento ecommerce developers](https://business.adobe.com/blog/the-latest/meet-worlds-top-magento-ecommerce-developers)
 - Listed by Meetanshi: [Top 50 Contributors of Magento Community 2019](https://meetanshi.com/blog/top-50-contributors-of-magento-community-2019/)
 - Featured in the Magento Community year in review: [2020 Community Year in Review: Top GitHub Contributors](https://web.archive.org/web/20250206232437/https://community.magento.com/t5/Magento-DevBlog/2020-Community-Year-in-Review-Top-GitHub-Contributors/ba-p/466613)
@@ -52,6 +51,26 @@ Adobe Commerce architect and Magento developer focused on commercial delivery, d
       <a href="https://plugins.jetbrains.com/plugin/8024">
         <img src="https://img.shields.io/jetbrains/plugin/d/8024" alt="Magento 2 and Adobe Commerce downloads">
       </a>
+    </td>
+  </tr>
+</table>
+
+## 📦 Magento Modules
+
+<table>
+  <tr>
+    <td width="96" align="center">
+      <a href="https://packagist.org/packages/vitaliyboyko/magento-seq">
+        <img src="https://raw.githubusercontent.com/VitaliyBoyko/seq-intellij-mcp/master/src/main/resources/META-INF/pluginIcon.svg" alt="magento-seq" width="72">
+      </a>
+    </td>
+    <td>
+      <strong><a href="https://packagist.org/packages/vitaliyboyko/magento-seq">magento-seq</a></strong><br>
+      Magento 2 local-development Seq instrumentation module.<br>
+      <a href="https://packagist.org/packages/vitaliyboyko/magento-seq">
+        <img src="https://img.shields.io/packagist/dt/vitaliyboyko/magento-seq" alt="magento-seq downloads">
+      </a>
+      <a href="https://github.com/VitaliyBoyko/magento-seq">source</a>
     </td>
   </tr>
 </table>
