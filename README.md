@@ -25,6 +25,39 @@ Adobe Commerce architect and Magento developer focused on commercial delivery, d
 - Featured in the Magento Community year in review: [2020 Community Year in Review: Top GitHub Contributors](https://web.archive.org/web/20250206232437/https://community.magento.com/t5/Magento-DevBlog/2020-Community-Year-in-Review-Top-GitHub-Contributors/ba-p/466613)
 - Covered by Atwix: [Enhancing development productivity with PhpStorm Magento plugin](https://www.atwix.com/magento/enhancing-development-productivity-with-phpstorm-magento-plugin/)
 
+## 🧩 JetBrains Plugins
+
+<table>
+  <tr>
+    <td width="96" align="center">
+      <a href="https://plugins.jetbrains.com/plugin/31358-seq-mcp">
+        <img src="https://plugins.jetbrains.com/files/31358/1032435/icon/default.png" alt="Seq MCP" width="72">
+      </a>
+    </td>
+    <td>
+      <strong><a href="https://plugins.jetbrains.com/plugin/31358-seq-mcp">Seq MCP</a></strong><br>
+      IntelliJ IDEA plugin scaffold for bringing Seq observability workflows and Model Context Protocol integration into the IDE.<br>
+      <a href="https://plugins.jetbrains.com/plugin/31358-seq-mcp">
+        <img src="https://phpstorm.espend.de/badge/31358/downloads" alt="Seq MCP downloads">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="96" align="center">
+      <a href="https://plugins.jetbrains.com/plugin/8024">
+        <img src="https://plugins.jetbrains.com/files/8024/icon/default.png" alt="Magento 2 and Adobe Commerce" width="72">
+      </a>
+    </td>
+    <td>
+      <strong><a href="https://plugins.jetbrains.com/plugin/8024">Magento 2 and Adobe Commerce</a></strong><br>
+      PhpStorm IDE plugin for a better Magento 2 development workflow, including Magento-specific MCP tools for AI agents.<br>
+      <a href="https://plugins.jetbrains.com/plugin/8024">
+        <img src="https://phpstorm.espend.de/badge/8024/downloads" alt="Magento 2 and Adobe Commerce downloads">
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## 🤔 Open Source
 - Contributions and feedback for the Magento plugin for PhpStorm, Seq MCP, and magento-seq are always welcome
 
