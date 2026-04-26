@@ -38,7 +38,7 @@ Adobe Commerce architect and Magento developer focused on commercial delivery, d
       <strong><a href="https://plugins.jetbrains.com/plugin/31358-seq-mcp">Seq MCP</a></strong><br>
       IntelliJ IDEA plugin scaffold for bringing Seq observability workflows and Model Context Protocol integration into the IDE.<br>
       <a href="https://plugins.jetbrains.com/plugin/31358-seq-mcp">
-        <img src="https://phpstorm.espend.de/badge/31358/downloads" alt="Seq MCP downloads">
+        <img src="https://img.shields.io/jetbrains/plugin/d/31358" alt="Seq MCP downloads">
       </a>
     </td>
   </tr>
@@ -52,7 +52,7 @@ Adobe Commerce architect and Magento developer focused on commercial delivery, d
       <strong><a href="https://plugins.jetbrains.com/plugin/8024">Magento 2 and Adobe Commerce</a></strong><br>
       PhpStorm IDE plugin for a better Magento 2 development workflow, including Magento-specific MCP tools for AI agents.<br>
       <a href="https://plugins.jetbrains.com/plugin/8024">
-        <img src="https://phpstorm.espend.de/badge/8024/downloads" alt="Magento 2 and Adobe Commerce downloads">
+        <img src="https://img.shields.io/jetbrains/plugin/d/8024" alt="Magento 2 and Adobe Commerce downloads">
       </a>
     </td>
   </tr>
