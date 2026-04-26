@@ -13,6 +13,8 @@ Adobe Commerce architect and Magento developer focused on commercial delivery, d
 - Led 5 Magento 1 to Magento 2 migrations, including cabinets.com and [lamodula.de](https://www.lamodula.de/)
 - Built full end-to-end test coverage for [The Cary Company](https://www.thecarycompany.com/)
 - Delivered ERP integration enhancements and B2B capabilities across current and past Adobe Commerce projects
+- Ranked #2 in Magento Open Source individual contributors for [2020](https://opensource.magento.com/statistic/#/individual-contributors/year/2020) with 1,658 points, and #5 for [2018](https://opensource.magento.com/statistic/#/individual-contributors/year/2018) with 993 points
+- Ranked #6 among Magento community maintainers in [2021](https://opensource.magento.com/statistic/#/community-maintainers/year/2021) and #7 in [2020](https://opensource.magento.com/statistic/#/community-maintainers/year/2020)
 - Designed and implemented custom alternatives to Magento Negotiable Quote 4 times for businesses with requirements that did not fit the native model
 - Drove performance and architectural improvements on large commercial Magento builds to strengthen stability and support long-term growth
 
