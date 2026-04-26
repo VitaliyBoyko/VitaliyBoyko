@@ -17,8 +17,6 @@ Adobe Commerce architect and Magento developer focused on commercial delivery, d
 - Drove performance and architectural improvements on large commercial Magento builds to strengthen stability and support long-term growth
 
 ## 🌟 Featured Work & Recognition
-- Maintainer of the [Magento plugin for PhpStorm](https://plugins.jetbrains.com/plugin/8024)
-- Built [Seq MCP](https://plugins.jetbrains.com/plugin/31358-seq-mcp), an IntelliJ IDEA plugin scaffold for bringing Seq observability workflows and Model Context Protocol integration into the IDE
 - Published [magento-seq](https://packagist.org/packages/vitaliyboyko/magento-seq), a Magento 2 local-development Seq instrumentation module on Packagist
 - Featured by Adobe: [Meet the world's top Magento ecommerce developers](https://business.adobe.com/blog/the-latest/meet-worlds-top-magento-ecommerce-developers)
 - Listed by Meetanshi: [Top 50 Contributors of Magento Community 2019](https://meetanshi.com/blog/top-50-contributors-of-magento-community-2019/)
@@ -31,7 +29,7 @@ Adobe Commerce architect and Magento developer focused on commercial delivery, d
   <tr>
     <td width="96" align="center">
       <a href="https://plugins.jetbrains.com/plugin/31358-seq-mcp">
-        <img src="https://plugins.jetbrains.com/files/31358/1032435/icon/default.png" alt="Seq MCP" width="72">
+        <img src="https://raw.githubusercontent.com/VitaliyBoyko/seq-intellij-mcp/master/src/main/resources/META-INF/pluginIcon.svg" alt="Seq MCP" width="72">
       </a>
     </td>
     <td>
@@ -45,7 +43,7 @@ Adobe Commerce architect and Magento developer focused on commercial delivery, d
   <tr>
     <td width="96" align="center">
       <a href="https://plugins.jetbrains.com/plugin/8024">
-        <img src="https://plugins.jetbrains.com/files/8024/icon/default.png" alt="Magento 2 and Adobe Commerce" width="72">
+        <img src="https://raw.githubusercontent.com/magento/magento2-phpstorm-plugin/5.4.0-develop/src/main/resources/META-INF/pluginIcon.svg" alt="Magento 2 and Adobe Commerce" width="72">
       </a>
     </td>
     <td>
