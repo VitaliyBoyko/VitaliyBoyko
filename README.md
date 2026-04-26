@@ -1,6 +1,6 @@
 # Hi there, I'm Vitalii Boiko 👋
 
-<sub>Older records may list me as Vitaliy Boyko due to transliteration updates.</sub>
+<sub>Older records may list me as Vitaliy Boyko due to government transliteration updates.</sub>
 
 Adobe Commerce architect and Magento developer focused on commercial delivery, developer tooling, test automation, and practical AI workflows.
 
