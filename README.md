@@ -1,6 +1,6 @@
 # Hi there, I'm Vitalii Boiko 👋
 
-<sub>You may also find me as Vitaliy Boyko in older records. The Latin spelling changed with updated Ukrainian transliteration rules, while the original Cyrillic name stayed the same.</sub>
+<sub>Older records may list me as Vitaliy Boyko due to transliteration updates.</sub>
 
 Adobe Commerce architect and Magento developer focused on commercial delivery, developer tooling, test automation, and practical AI workflows.
 
