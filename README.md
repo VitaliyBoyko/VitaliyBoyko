@@ -15,7 +15,7 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 - Maintaining the [Magento plugin for PhpStorm on JetBrains Marketplace](https://plugins.jetbrains.com/plugin/8024) in my spare time
 
 ## 📈 Selected Impact
-- Led 5 Magento 1 to Magento 2 migrations, including cabinets.com and [lamodula.de](https://www.lamodula.de/)
+- Led 5 Magento 1 to Magento 2 migrations, including [cabinets.com](https://www.cabinets.com/) and [lamodula.de](https://www.lamodula.de/)
 - Built full end-to-end test coverage for [The Cary Company](https://www.thecarycompany.com/)
 - Delivered ERP integration enhancements and B2B capabilities across current and past Adobe Commerce projects
 - Ranked #2 in Magento Open Source individual contributors for [2020](https://opensource.magento.com/statistic/#/individual-contributors/year/2020) with 1,658 points, and #5 for [2018](https://opensource.magento.com/statistic/#/individual-contributors/year/2018) with 993 points
