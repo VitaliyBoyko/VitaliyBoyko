@@ -66,7 +66,7 @@ Adobe Commerce architect and Magento developer focused on commercial delivery, d
     </td>
     <td>
       <strong><a href="https://packagist.org/packages/vitaliyboyko/magento-seq">magento-seq</a></strong><br>
-      Magento 2 local-development Seq instrumentation module.<br>
+      Magento 2 local-development Seq instrumentation module for structured logging, request tracing, and observability workflows during Adobe Commerce development.<br>
       <a href="https://packagist.org/packages/vitaliyboyko/magento-seq">
         <img src="https://img.shields.io/packagist/dt/vitaliyboyko/magento-seq" alt="magento-seq downloads">
       </a>
