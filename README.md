@@ -9,6 +9,13 @@ Adobe Commerce architect and Magento developer focused on commercial delivery, d
 - Building Seq-powered observability and MCP tooling to enhance AI development workflows for large commercial projects
 - Maintaining the [Magento plugin for PhpStorm on JetBrains Marketplace](https://plugins.jetbrains.com/plugin/8024) in my spare time
 
+## 📈 Selected Impact
+- Led 5 Magento 1 to Magento 2 migrations, including cabinets.com and [lamodula.de](https://www.lamodula.de/)
+- Built full end-to-end test coverage for [The Cary Company](https://www.thecarycompany.com/)
+- Delivered ERP integration enhancements and B2B capabilities across current and past Adobe Commerce projects
+- Designed and implemented custom alternatives to Magento Negotiable Quote 4 times for businesses with requirements that did not fit the native model
+- Drove performance and architectural improvements on large commercial Magento builds to strengthen stability and support long-term growth
+
 ## 🌟 Featured Work & Recognition
 - Maintainer of the [Magento plugin for PhpStorm](https://plugins.jetbrains.com/plugin/8024)
 - Built [Seq MCP](https://plugins.jetbrains.com/plugin/31358-seq-mcp), an IntelliJ IDEA plugin scaffold for bringing Seq observability workflows and Model Context Protocol integration into the IDE
