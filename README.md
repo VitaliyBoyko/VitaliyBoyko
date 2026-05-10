@@ -118,6 +118,10 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 
 ## 🎥 Videos
 
+### AI-Powered Development With Code Coverage: Faster Code Without Losing Quality
+
+[![Watch the video on YouTube](https://img.youtube.com/vi/_OUrdY8rwes/hqdefault.jpg)](https://www.youtube.com/watch?v=_OUrdY8rwes)
+
 ### I Fixed a 5-Year Magento Bug with AI Agents (Using Instrumentation + MCP)
 
 [![Watch the video on YouTube](https://img.youtube.com/vi/OyeqP1aq3jo/hqdefault.jpg)](https://www.youtube.com/watch?v=OyeqP1aq3jo)
