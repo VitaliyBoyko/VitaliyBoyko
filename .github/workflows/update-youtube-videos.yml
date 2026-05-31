@@ -1,0 +1,51 @@
+name: Update YouTube videos in README
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - scripts/update_youtube_videos.py
+      - .github/workflows/update-youtube-videos.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Update README video list
+        env:
+          YOUTUBE_FEED_URL: ${{ vars.YOUTUBE_FEED_URL }}
+          YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID }}
+          YOUTUBE_PLAYLIST_ID: ${{ vars.YOUTUBE_PLAYLIST_ID }}
+          YOUTUBE_HANDLE: ${{ vars.YOUTUBE_HANDLE }}
+          YOUTUBE_MAX_VIDEOS: "4"
+        run: python scripts/update_youtube_videos.py
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "No README changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update YouTube videos in README"
+          git push
