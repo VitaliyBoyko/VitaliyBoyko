@@ -119,13 +119,22 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 ## 🎥 Videos
 
 <!-- youtube-videos:start -->
-### AI-Powered Development With Code Coverage: Faster Code Without Losing Quality
-
-[![Watch the video on YouTube](https://img.youtube.com/vi/_OUrdY8rwes/hqdefault.jpg)](https://www.youtube.com/watch?v=_OUrdY8rwes)
-
-### I Fixed a 5-Year Magento Bug with AI Agents (Using Instrumentation + MCP)
-
-[![Watch the video on YouTube](https://img.youtube.com/vi/OyeqP1aq3jo/hqdefault.jpg)](https://www.youtube.com/watch?v=OyeqP1aq3jo)
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://www.youtube.com/watch?v=_OUrdY8rwes">
+        <img src="https://img.youtube.com/vi/_OUrdY8rwes/hqdefault.jpg" alt="AI-Powered Development With Code Coverage: Faster Code Without Losing Quality" width="100%">
+      </a><br>
+      <strong><a href="https://www.youtube.com/watch?v=_OUrdY8rwes">AI-Powered Development With Code Coverage: Faster Code Without Losing Quality</a></strong>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://www.youtube.com/watch?v=OyeqP1aq3jo">
+        <img src="https://img.youtube.com/vi/OyeqP1aq3jo/hqdefault.jpg" alt="I Fixed a 5-Year Magento Bug with AI Agents (Using Instrumentation + MCP)" width="100%">
+      </a><br>
+      <strong><a href="https://www.youtube.com/watch?v=OyeqP1aq3jo">I Fixed a 5-Year Magento Bug with AI Agents (Using Instrumentation + MCP)</a></strong>
+    </td>
+  </tr>
+</table>
 <!-- youtube-videos:end -->
 
 ## 💬 Ask Me About

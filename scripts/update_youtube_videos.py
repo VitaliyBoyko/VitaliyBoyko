@@ -14,7 +14,8 @@ import xml.etree.ElementTree as ET
 README_PATH = os.environ.get("README_PATH", "README.md")
 START_MARKER = "<!-- youtube-videos:start -->"
 END_MARKER = "<!-- youtube-videos:end -->"
-MAX_VIDEOS = int(os.environ.get("YOUTUBE_MAX_VIDEOS", "4"))
+MAX_VIDEOS = int(os.environ.get("YOUTUBE_MAX_VIDEOS", "10"))
+VIDEOS_PER_ROW = 3
 
 ATOM_NS = {"atom": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
 
@@ -81,7 +82,7 @@ def extract_video_id(entry: ET.Element) -> str | None:
 
 def build_video_block(feed_xml: str) -> str:
     root = ET.fromstring(feed_xml)
-    blocks: list[str] = []
+    videos: list[tuple[str, str]] = []
 
     for entry in root.findall("atom:entry", ATOM_NS)[:MAX_VIDEOS]:
         title = (entry.findtext("atom:title", default="", namespaces=ATOM_NS) or "").strip()
@@ -89,21 +90,36 @@ def build_video_block(feed_xml: str) -> str:
         if not title or not video_id:
             continue
 
-        safe_title = html.escape(title, quote=False)
-        blocks.append(
-            "\n".join(
-                [
-                    f"### {safe_title}",
-                    "",
-                    f"[![Watch the video on YouTube](https://img.youtube.com/vi/{video_id}/hqdefault.jpg)](https://www.youtube.com/watch?v={video_id})",
-                ]
-            )
-        )
+        videos.append((html.escape(title, quote=True), video_id))
 
-    if not blocks:
+    if not videos:
         raise SystemExit("No videos found in the configured YouTube feed.")
 
-    return f"{START_MARKER}\n" + "\n\n".join(blocks) + f"\n{END_MARKER}"
+    return f"{START_MARKER}\n" + render_video_grid(videos) + f"\n{END_MARKER}"
+
+
+def render_video_grid(videos: list[tuple[str, str]]) -> str:
+    lines = ["<table>"]
+
+    for index in range(0, len(videos), VIDEOS_PER_ROW):
+        lines.append("  <tr>")
+        for title, video_id in videos[index : index + VIDEOS_PER_ROW]:
+            video_url = f"https://www.youtube.com/watch?v={video_id}"
+            thumbnail_url = f"https://img.youtube.com/vi/{video_id}/hqdefault.jpg"
+            lines.extend(
+                [
+                    '    <td width="33%" valign="top">',
+                    f'      <a href="{video_url}">',
+                    f'        <img src="{thumbnail_url}" alt="{title}" width="100%">',
+                    "      </a><br>",
+                    f'      <strong><a href="{video_url}">{title}</a></strong>',
+                    "    </td>",
+                ]
+            )
+        lines.append("  </tr>")
+
+    lines.append("</table>")
+    return "\n".join(lines)
 
 
 def update_readme(readme_path: str, replacement_block: str) -> bool:

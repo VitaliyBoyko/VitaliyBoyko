@@ -35,7 +35,7 @@ jobs:
           YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID }}
           YOUTUBE_PLAYLIST_ID: ${{ vars.YOUTUBE_PLAYLIST_ID }}
           YOUTUBE_HANDLE: ${{ vars.YOUTUBE_HANDLE }}
-          YOUTUBE_MAX_VIDEOS: "4"
+          YOUTUBE_MAX_VIDEOS: "10"
         run: python scripts/update_youtube_videos.py
 
       - name: Commit changes
