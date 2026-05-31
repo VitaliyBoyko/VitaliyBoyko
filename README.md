@@ -119,6 +119,14 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 ## 🎥 Videos
 
 <!-- youtube-videos:start -->
+### AI Migrated a Magento Marketplace Module to Custom Code in 26 Minutes
+
+[![Watch the video on YouTube](https://img.youtube.com/vi/zlvsFp1w1uM/hqdefault.jpg)](https://www.youtube.com/watch?v=zlvsFp1w1uM)
+
+### I Tried Replacing Codex With Local LLMs for Magento Coding… Reality Check
+
+[![Watch the video on YouTube](https://img.youtube.com/vi/XYBGkM8IdII/hqdefault.jpg)](https://www.youtube.com/watch?v=XYBGkM8IdII)
+
 ### AI-Powered Development With Code Coverage: Faster Code Without Losing Quality
 
 [![Watch the video on YouTube](https://img.youtube.com/vi/_OUrdY8rwes/hqdefault.jpg)](https://www.youtube.com/watch?v=_OUrdY8rwes)
