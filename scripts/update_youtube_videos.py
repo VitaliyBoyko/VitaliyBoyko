@@ -82,9 +82,10 @@ def extract_video_id(entry: ET.Element) -> str | None:
 
 def build_video_block(feed_xml: str) -> str:
     root = ET.fromstring(feed_xml)
+    entries = root.findall("atom:entry", ATOM_NS)
     videos: list[tuple[str, str]] = []
 
-    for entry in root.findall("atom:entry", ATOM_NS)[:MAX_VIDEOS]:
+    for entry in entries[:MAX_VIDEOS]:
         title = (entry.findtext("atom:title", default="", namespaces=ATOM_NS) or "").strip()
         video_id = extract_video_id(entry)
         if not title or not video_id:
@@ -95,10 +96,36 @@ def build_video_block(feed_xml: str) -> str:
     if not videos:
         raise SystemExit("No videos found in the configured YouTube feed.")
 
-    return f"{START_MARKER}\n" + render_video_grid(videos) + f"\n{END_MARKER}"
+    channel_url = get_channel_url(root)
+    has_more_videos = len(entries) > MAX_VIDEOS
+    return f"{START_MARKER}\n" + render_video_grid(videos, channel_url, has_more_videos) + f"\n{END_MARKER}"
 
 
-def render_video_grid(videos: list[tuple[str, str]]) -> str:
+def get_channel_url(root: ET.Element) -> str | None:
+    explicit = os.environ.get("YOUTUBE_CHANNEL_URL")
+    if explicit:
+        return explicit
+
+    handle = os.environ.get("YOUTUBE_HANDLE")
+    if handle:
+        return f"https://www.youtube.com/@{handle.removeprefix('@')}"
+
+    channel_id = os.environ.get("YOUTUBE_CHANNEL_ID") or root.findtext("yt:channelId", namespaces=ATOM_NS)
+    if channel_id:
+        return f"https://www.youtube.com/channel/{channel_id}"
+
+    author_uri = root.findtext("atom:author/atom:uri", namespaces=ATOM_NS)
+    if author_uri:
+        return author_uri
+
+    link = root.find("atom:link[@rel='alternate']", ATOM_NS)
+    if link is not None:
+        return link.attrib.get("href")
+
+    return None
+
+
+def render_video_grid(videos: list[tuple[str, str]], channel_url: str | None = None, has_more_videos: bool = False) -> str:
     lines = ["<table>"]
 
     for index in range(0, len(videos), VIDEOS_PER_ROW):
@@ -117,6 +144,18 @@ def render_video_grid(videos: list[tuple[str, str]]) -> str:
                 ]
             )
         lines.append("  </tr>")
+
+    if has_more_videos and channel_url:
+        safe_channel_url = html.escape(channel_url, quote=True)
+        lines.extend(
+            [
+                "  <tr>",
+                '    <td colspan="3" align="center">',
+                f'      <strong><a href="{safe_channel_url}">View more videos on YouTube</a></strong>',
+                "    </td>",
+                "  </tr>",
+            ]
+        )
 
     lines.append("</table>")
     return "\n".join(lines)
