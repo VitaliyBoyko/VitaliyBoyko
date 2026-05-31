@@ -16,6 +16,7 @@ START_MARKER = "<!-- youtube-videos:start -->"
 END_MARKER = "<!-- youtube-videos:end -->"
 MAX_VIDEOS = int(os.environ.get("YOUTUBE_MAX_VIDEOS", "10"))
 VIDEOS_PER_ROW = 3
+YOUTUBE_CHANNEL_URL = "https://www.youtube.com/@vitaliiMagentoDeveloper"
 
 ATOM_NS = {"atom": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
 
@@ -96,36 +97,11 @@ def build_video_block(feed_xml: str) -> str:
     if not videos:
         raise SystemExit("No videos found in the configured YouTube feed.")
 
-    channel_url = get_channel_url(root)
     has_more_videos = len(entries) > MAX_VIDEOS
-    return f"{START_MARKER}\n" + render_video_grid(videos, channel_url, has_more_videos) + f"\n{END_MARKER}"
+    return f"{START_MARKER}\n" + render_video_grid(videos, has_more_videos) + f"\n{END_MARKER}"
 
 
-def get_channel_url(root: ET.Element) -> str | None:
-    explicit = os.environ.get("YOUTUBE_CHANNEL_URL")
-    if explicit:
-        return explicit
-
-    handle = os.environ.get("YOUTUBE_HANDLE")
-    if handle:
-        return f"https://www.youtube.com/@{handle.removeprefix('@')}"
-
-    channel_id = os.environ.get("YOUTUBE_CHANNEL_ID") or root.findtext("yt:channelId", namespaces=ATOM_NS)
-    if channel_id:
-        return f"https://www.youtube.com/channel/{channel_id}"
-
-    author_uri = root.findtext("atom:author/atom:uri", namespaces=ATOM_NS)
-    if author_uri:
-        return author_uri
-
-    link = root.find("atom:link[@rel='alternate']", ATOM_NS)
-    if link is not None:
-        return link.attrib.get("href")
-
-    return None
-
-
-def render_video_grid(videos: list[tuple[str, str]], channel_url: str | None = None, has_more_videos: bool = False) -> str:
+def render_video_grid(videos: list[tuple[str, str]], has_more_videos: bool = False) -> str:
     lines = ["<table>"]
 
     for index in range(0, len(videos), VIDEOS_PER_ROW):
@@ -145,8 +121,8 @@ def render_video_grid(videos: list[tuple[str, str]], channel_url: str | None = N
             )
         lines.append("  </tr>")
 
-    if has_more_videos and channel_url:
-        safe_channel_url = html.escape(channel_url, quote=True)
+    if has_more_videos:
+        safe_channel_url = html.escape(YOUTUBE_CHANNEL_URL, quote=True)
         lines.extend(
             [
                 "  <tr>",

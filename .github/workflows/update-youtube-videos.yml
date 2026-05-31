@@ -33,7 +33,6 @@ jobs:
         env:
           YOUTUBE_FEED_URL: ${{ vars.YOUTUBE_FEED_URL }}
           YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID }}
-          YOUTUBE_CHANNEL_URL: ${{ vars.YOUTUBE_CHANNEL_URL }}
           YOUTUBE_PLAYLIST_ID: ${{ vars.YOUTUBE_PLAYLIST_ID }}
           YOUTUBE_HANDLE: ${{ vars.YOUTUBE_HANDLE }}
           YOUTUBE_MAX_VIDEOS: "10"
