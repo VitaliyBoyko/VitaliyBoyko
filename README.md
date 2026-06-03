@@ -122,6 +122,12 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 <table>
   <tr>
     <td width="33%" valign="top">
+      <a href="https://www.youtube.com/watch?v=NJrdFWHrEvs">
+        <img src="https://img.youtube.com/vi/NJrdFWHrEvs/hqdefault.jpg" alt="Magento PhpStorm Plugin 2026.2.2 — Smarter MCP Tools, Skills Generation, and Better AI Scaffolding" width="100%">
+      </a><br>
+      <strong><a href="https://www.youtube.com/watch?v=NJrdFWHrEvs">Magento PhpStorm Plugin 2026.2.2 — Smarter MCP Tools, Skills Generation, and Better AI Scaffolding</a></strong>
+    </td>
+    <td width="33%" valign="top">
       <a href="https://www.youtube.com/watch?v=zlvsFp1w1uM">
         <img src="https://img.youtube.com/vi/zlvsFp1w1uM/hqdefault.jpg" alt="AI Migrated a Magento Marketplace Module to Custom Code in 26 Minutes" width="100%">
       </a><br>
@@ -133,14 +139,14 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
       </a><br>
       <strong><a href="https://www.youtube.com/watch?v=XYBGkM8IdII">I Tried Replacing Codex With Local LLMs for Magento Coding… Reality Check</a></strong>
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top">
       <a href="https://www.youtube.com/watch?v=_OUrdY8rwes">
         <img src="https://img.youtube.com/vi/_OUrdY8rwes/hqdefault.jpg" alt="AI-Powered Development With Code Coverage: Faster Code Without Losing Quality" width="100%">
       </a><br>
       <strong><a href="https://www.youtube.com/watch?v=_OUrdY8rwes">AI-Powered Development With Code Coverage: Faster Code Without Losing Quality</a></strong>
     </td>
-  </tr>
-  <tr>
     <td width="33%" valign="top">
       <a href="https://www.youtube.com/watch?v=OyeqP1aq3jo">
         <img src="https://img.youtube.com/vi/OyeqP1aq3jo/hqdefault.jpg" alt="I Fixed a 5-Year Magento Bug with AI Agents (Using Instrumentation + MCP)" width="100%">
