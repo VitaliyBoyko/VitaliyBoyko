@@ -203,7 +203,6 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 
 ### 📊 GitHub Stats
 ![GitHub Stats](./profile/stats.svg)
-![Top Languages](./profile/top-langs.svg)
 
 ## ☕ Support Me
 
