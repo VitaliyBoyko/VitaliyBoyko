@@ -202,7 +202,8 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 - My dad wanted me to be a "Real Man" so bad that I became a developer instead. 😄
 
 ### 📊 GitHub Stats
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=VitaliyBoyko&show_icons=true&count_private=true&hide_title=true)
+![GitHub Stats](./profile/stats.svg)
+![Top Languages](./profile/top-langs.svg)
 
 ## ☕ Support Me
 
