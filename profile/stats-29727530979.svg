@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Vitalii Boiko's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 3, Total Commits  (last year) : 2083, Total PRs: 1874, Total Issues: 93, Contributed to (last year): 7</desc>
+        <desc id="descId">Total Stars Earned: 3, Total Commits  (last year) : 2062, Total PRs: 1874, Total Issues: 93, Contributed to (last year): 7</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 84.3029661073471;
+        stroke-dashoffset: 84.31075932735057;
       }
     }
   
