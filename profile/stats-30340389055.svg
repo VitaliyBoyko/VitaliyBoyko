@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Vitalii Boiko's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 3, Total Commits  (last year) : 2077, Total PRs: 1881, Total Issues: 93, Contributed to (last year): 7</desc>
+        <title id="titleId">Vitalii Boiko&#39;s GitHub Stats, Rank: A-</title>
+        <desc id="descId">Total Stars Earned: 3, Total Commits  (last year) : 2098, Total PRs: 1885, Total Issues: 93, Contributed to (last year): 7</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 84.36635053323036;
+        stroke-dashoffset: 84.35887479239162;
       }
     }
   
