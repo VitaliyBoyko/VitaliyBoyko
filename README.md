@@ -40,7 +40,7 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
     </td>
     <td>
       <strong><a href="https://plugins.jetbrains.com/plugin/31358-seq-mcp">Seq MCP</a></strong><br>
-      IntelliJ IDEA plugin scaffold for bringing Seq observability workflows and Model Context Protocol integration into the IDE.<br>
+      IntelliJ IDEA plugin for bringing Seq observability workflows and Model Context Protocol integration into the IDE.<br>
       <a href="https://plugins.jetbrains.com/plugin/31358-seq-mcp">
         <img src="https://img.shields.io/jetbrains/plugin/d/31358" alt="Seq MCP downloads">
       </a>
