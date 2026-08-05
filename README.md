@@ -202,7 +202,7 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 - My dad wanted me to be a "Real Man" so bad that I became a developer instead. 😄
 
 ### 📊 GitHub Stats
-![GitHub Stats](./profile/stats-30981272129.svg)
+![GitHub Stats](./profile/stats-30987093625.svg)
 
 ## ☕ Support Me
 
