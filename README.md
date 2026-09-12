@@ -122,6 +122,12 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 <table>
   <tr>
     <td width="33%" valign="top">
+      <a href="https://www.youtube.com/watch?v=LQBnaRnj2h4">
+        <img src="https://img.youtube.com/vi/LQBnaRnj2h4/hqdefault.jpg" alt="PHP Code Coverage Was Killing My E2E Tests — So I(not quite I) Fixed PCOV" width="100%">
+      </a><br>
+      <strong><a href="https://www.youtube.com/watch?v=LQBnaRnj2h4">PHP Code Coverage Was Killing My E2E Tests — So I(not quite I) Fixed PCOV</a></strong>
+    </td>
+    <td width="33%" valign="top">
       <a href="https://www.youtube.com/watch?v=OOzGr2p9QrQ">
         <img src="https://img.youtube.com/vi/OOzGr2p9QrQ/hqdefault.jpg" alt="Magento 2 &amp; Adobe Commerce IDE Plugin 2026.3.0 – WebStorm Support + New JavaScript Navigation 🚀" width="100%">
       </a><br>
@@ -133,14 +139,14 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
       </a><br>
       <strong><a href="https://www.youtube.com/watch?v=NJrdFWHrEvs">Magento PhpStorm Plugin 2026.2.2 — Smarter MCP Tools, Skills Generation, and Better AI Scaffolding</a></strong>
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top">
       <a href="https://www.youtube.com/watch?v=zlvsFp1w1uM">
         <img src="https://img.youtube.com/vi/zlvsFp1w1uM/hqdefault.jpg" alt="AI Migrated a Magento Marketplace Module to Custom Code in 26 Minutes" width="100%">
       </a><br>
       <strong><a href="https://www.youtube.com/watch?v=zlvsFp1w1uM">AI Migrated a Magento Marketplace Module to Custom Code in 26 Minutes</a></strong>
     </td>
-  </tr>
-  <tr>
     <td width="33%" valign="top">
       <a href="https://www.youtube.com/watch?v=XYBGkM8IdII">
         <img src="https://img.youtube.com/vi/XYBGkM8IdII/hqdefault.jpg" alt="I Tried Replacing Codex With Local LLMs for Magento Coding… Reality Check" width="100%">
@@ -153,6 +159,8 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
       </a><br>
       <strong><a href="https://www.youtube.com/watch?v=_OUrdY8rwes">AI-Powered Development With Code Coverage: Faster Code Without Losing Quality</a></strong>
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top">
       <a href="https://www.youtube.com/watch?v=OyeqP1aq3jo">
         <img src="https://img.youtube.com/vi/OyeqP1aq3jo/hqdefault.jpg" alt="I Fixed a 5-Year Magento Bug with AI Agents (Using Instrumentation + MCP)" width="100%">
