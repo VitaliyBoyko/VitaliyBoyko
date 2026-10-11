@@ -111,7 +111,7 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
     </td>
     <td>
       <strong><a href="https://packagist.org/packages/vitaliyboyko/pcov">vitaliyboyko/pcov</a></strong><br>
-      PCOV coverage driver optimized for large PHP test suites.<br>
+      PCOV coverage driver optimized for large PHP test suites and coverage engine for the <a href="https://github.com/VitaliyBoyko/MageLens">MageLens</a> project.<br>
       <a href="https://packagist.org/packages/vitaliyboyko/pcov">
         <img src="https://img.shields.io/packagist/dt/vitaliyboyko/pcov" alt="pcov downloads">
       </a>
