@@ -81,6 +81,44 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
   </tr>
 </table>
 
+## 📦 npm Packages
+
+<table>
+  <tr>
+    <td width="96" align="center">
+      <a href="https://www.npmjs.com/package/@vitaliiboiko/magento-template-coverage">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" width="72">
+      </a>
+    </td>
+    <td>
+      <strong><a href="https://www.npmjs.com/package/@vitaliiboiko/magento-template-coverage">@vitaliiboiko/magento-template-coverage</a></strong><br>
+      Browser template DOM coverage for disposable Magento test copies.<br>
+      <a href="https://www.npmjs.com/package/@vitaliiboiko/magento-template-coverage">
+        <img src="https://img.shields.io/npm/dt/@vitaliiboiko/magento-template-coverage" alt="magento-template-coverage downloads">
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 📦 PIE Packages
+
+<table>
+  <tr>
+    <td width="96" align="center">
+      <a href="https://packagist.org/packages/vitaliyboyko/pcov">
+        <img src="https://github.com/VitaliyBoyko/MageLens/raw/main/assets/magelens.svg" alt="MageLens" width="72">
+      </a>
+    </td>
+    <td>
+      <strong><a href="https://packagist.org/packages/vitaliyboyko/pcov">vitaliyboyko/pcov</a></strong><br>
+      PCOV coverage driver optimized for large PHP test suites.<br>
+      <a href="https://packagist.org/packages/vitaliyboyko/pcov">
+        <img src="https://img.shields.io/packagist/dt/vitaliyboyko/pcov" alt="pcov downloads">
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## 📜 My Certifications
 
 <table>
