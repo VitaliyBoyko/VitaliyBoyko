@@ -9,7 +9,7 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 
 ## 🔭 Current Focus
 - Commercial Magento and NetSuite projects for The Cary Company
-- Expanding Cypress automated test coverage
+- Expanding automated test coverage with Cypress and Playwright
 - Integrating AI into the development workflow to improve code quality, connect testing processes, and speed up delivery
 - Building Seq-powered observability and MCP tooling to enhance AI development workflows for large commercial projects
 - Maintaining the [Magento plugin for PhpStorm on JetBrains Marketplace](https://plugins.jetbrains.com/plugin/8024) in my spare time
@@ -31,7 +31,9 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 
 ## 🔎 MageLens
 
-[MageLens](https://github.com/VitaliyBoyko/MageLens) boots a local Magento 2 environment in Docker and collects PHP, JavaScript, and HTML template coverage from one Cypress run. Coverage examples: executed PHP/`.phtml` lines, browser JavaScript, and template bindings — combined in one report.
+[MageLens](https://github.com/VitaliyBoyko/MageLens) boots a local Magento 2 environment in Docker and collects PHP, JavaScript, and HTML template coverage from a Cypress or Playwright run. Choose Luma or Hyvä with either runner, and see executed PHP/`.phtml` lines, browser JavaScript, and template bindings in one combined report.
+
+The default installation uses Luma and Cypress. Add `--hyva` for Hyvä, `--playwright` for Playwright, or both flags together. Each installation includes only the selected browser runner. See the [installation guide](https://github.com/VitaliyBoyko/MageLens#quick-start) to get started.
 
 ## 🧩 JetBrains Plugins
 
@@ -96,7 +98,7 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
     </td>
     <td>
       <strong><a href="https://www.npmjs.com/package/@vitaliiboiko/magento-template-coverage">@vitaliiboiko/magento-template-coverage</a></strong><br>
-      Browser template DOM coverage for disposable Magento test copies.<br>
+      Template execution and DOM-presence coverage for Magento, with Cypress and Playwright support for Knockout, Underscore, and regular Alpine directives.<br>
       <a href="https://www.npmjs.com/package/@vitaliiboiko/magento-template-coverage">
         <img src="https://img.shields.io/npm/dt/@vitaliiboiko/magento-template-coverage" alt="magento-template-coverage downloads">
       </a>
@@ -230,7 +232,7 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 - Adobe Commerce and Magento architecture
 - Commercial Magento delivery
 - NetSuite integrations and workflows
-- Cypress test automation
+- Cypress and Playwright test automation
 - JetBrains plugin development
 - AI-assisted engineering workflows
 - Cycling
