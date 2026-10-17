@@ -33,8 +33,6 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 
 [MageLens](https://github.com/VitaliyBoyko/MageLens) boots a local Magento 2 environment in Docker and collects PHP, JavaScript, and HTML template coverage from a Cypress or Playwright run. Choose Luma or Hyvä with either runner, and see executed PHP/`.phtml` lines, browser JavaScript, and template bindings in one combined report.
 
-The default installation uses Luma and Cypress. Add `--hyva` for Hyvä, `--playwright` for Playwright, or both flags together. Each installation includes only the selected browser runner. See the [installation guide](https://github.com/VitaliyBoyko/MageLens#quick-start) to get started.
-
 ## 🧩 JetBrains Plugins
 
 <table>
