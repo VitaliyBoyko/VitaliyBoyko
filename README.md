@@ -29,6 +29,10 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 - Featured in the Magento Community year in review: [2020 Community Year in Review: Top GitHub Contributors](https://web.archive.org/web/20250206232437/https://community.magento.com/t5/Magento-DevBlog/2020-Community-Year-in-Review-Top-GitHub-Contributors/ba-p/466613)
 - Covered by Atwix: [Enhancing development productivity with PhpStorm Magento plugin](https://www.atwix.com/magento/enhancing-development-productivity-with-phpstorm-magento-plugin/)
 
+## 🔎 MageLens
+
+[MageLens](https://github.com/VitaliyBoyko/MageLens) boots a local Magento 2 environment in Docker and collects PHP, JavaScript, and HTML template coverage from one Cypress run. Coverage examples: executed PHP/`.phtml` lines, browser JavaScript, and template bindings — combined in one report.
+
 ## 🧩 JetBrains Plugins
 
 <table>
