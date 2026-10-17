@@ -266,7 +266,7 @@ The default installation uses Luma and Cypress. Add `--hyva` for Hyvä, `--playw
 - My dad wanted me to be a "Real Man" so bad that I became a developer instead. 😄
 
 ### 📊 GitHub Stats
-![GitHub Stats](./profile/stats-39026894449.svg)
+![GitHub Stats](./profile/stats-39038693915.svg)
 
 ## ☕ Support Me
 
