@@ -10,6 +10,7 @@ on:
     paths:
       - README.md
       - .github/workflows/update-github-stats.yml
+      - scripts/update_github_stats.py
 
 permissions:
   contents: write
@@ -29,20 +30,16 @@ jobs:
       - name: Create profile asset directory
         run: mkdir -p profile
 
-      - name: Remove old stats cards
-        run: rm -f profile/stats.svg profile/stats-*.svg profile/top-langs.svg
-
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: "username=${{ github.repository_owner }}&show_icons=true&hide_title=true&count_private=true"
-          path: ${{ env.STATS_CARD_PATH }}
+          path: .stats-card.svg
           token: ${{ secrets.STATS_TOKEN }}
 
-      - name: Update README stats card path
-        run: |
-          perl -0pi -e "s#!\\[GitHub Stats\\]\\(\\./profile/stats(?:-[0-9]+)?\\.svg\\)#![GitHub Stats](./${STATS_CARD_PATH})#" README.md
+      - name: Validate and install stats card
+        run: python3 scripts/update_github_stats.py .stats-card.svg "$STATS_CARD_PATH"
 
       - name: Commit cards
         run: |
