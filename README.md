@@ -20,14 +20,18 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 - Delivered ERP integration enhancements and B2B capabilities across current and past Adobe Commerce projects
 - Ranked #2 in Magento Open Source individual contributors for [2020](https://opensource.magento.com/statistic/#/individual-contributors/year/2020) with 1,658 points, and #5 for [2018](https://opensource.magento.com/statistic/#/individual-contributors/year/2018) with 993 points
 - Ranked #6 among Magento community maintainers in [2021](https://opensource.magento.com/statistic/#/community-maintainers/year/2021) and #7 in [2020](https://opensource.magento.com/statistic/#/community-maintainers/year/2020)
+- Ranked #18 among all-time contributors to Magento Multi-Source Inventory (MSI) — [magento/inventory contributor statistics](https://github.com/magento/inventory/graphs/contributors)
 - Designed and implemented custom alternatives to Magento Negotiable Quote 4 times for businesses with requirements that did not fit the native model
 - Drove performance and architectural improvements on large commercial Magento builds to strengthen stability and support long-term growth
 
 ## 🌟 Featured Work & Recognition
 - Featured by Adobe: [Meet the world's top Magento ecommerce developers](https://business.adobe.com/blog/the-latest/meet-worlds-top-magento-ecommerce-developers)
+- Featured in Hyvä Hot Cakes: my [MCP-enabled Magento PhpStorm plugin](https://www.linkedin.com/pulse/hot-cakes-61-replaceable-100-here-ready-magento-marbella-10042026-tkwve) and [AI-assisted Magento debugging demo](https://www.linkedin.com/pulse/hot-cakes-familiar-faces-ecosystem-energy-magento-momentum-01052026-tahxe)
+- Co-host of [The Commerce DevCast](https://thecommercedevcast.github.io/about.html): discussions on Magento, Adobe Commerce, architecture, automated testing, and industry developments
+- Recognized by Atwix among its top contributors to [Magento Multi-Source Inventory (MSI)](https://www.atwix.com/magento-2/multi-source-inventory-in-magento-2-3/)
 - Listed by Meetanshi: [Top 50 Contributors of Magento Community 2019](https://meetanshi.com/blog/top-50-contributors-of-magento-community-2019/)
 - Featured in the Magento Community year in review: [2020 Community Year in Review: Top GitHub Contributors](https://web.archive.org/web/20250206232437/https://community.magento.com/t5/Magento-DevBlog/2020-Community-Year-in-Review-Top-GitHub-Contributors/ba-p/466613)
-- Covered by Atwix: [Enhancing development productivity with PhpStorm Magento plugin](https://www.atwix.com/magento/enhancing-development-productivity-with-phpstorm-magento-plugin/)
+- Published on Atwix: [Boost Productivity with Magento PHPStorm Plugin](https://www.atwix.com/magento/enhancing-development-productivity-with-phpstorm-magento-plugin/)
 
 ## 🔎 MageLens
 
