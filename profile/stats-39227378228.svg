@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Vitalii Boiko&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 3, Total Commits  (last year) : 2115, Total PRs: 1905, Total Issues: 93, Contributed to (last year): 7</desc>
+        <desc id="descId">Total Stars Earned: 10, Total Commits  (last year) : 342, Total PRs: 272, Total Issues: 97, Contributed to (last year): 4</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,11 +73,12 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 84.35313375063429;
+        stroke-dashoffset: 92.52263558050116;
       }
     }
   
   
+          
 
           
       /* Animations */
@@ -102,9 +103,15 @@
         </style>
 
         
+        <defs>
+          
+          
+        </defs>
+        
 
         <rect
           data-testid="card-bg"
+          class="card-bg"
           x="0.5"
           y="0.5"
           rx="4.5"
@@ -148,7 +155,7 @@
         x="224.01"
         y="12.5"
         data-testid="stars"
-      >3</text>
+      >10</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -163,7 +170,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >2.1k</text>
+      >342</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -178,7 +185,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >1.9k</text>
+      >272</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -193,7 +200,7 @@
         x="224.01"
         y="12.5"
         data-testid="issues"
-      >93</text>
+      >97</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -208,7 +215,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >7</text>
+      >4</text>
     </g>
   </g>
     </svg>
