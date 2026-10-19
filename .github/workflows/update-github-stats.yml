@@ -31,12 +31,25 @@ jobs:
         run: mkdir -p profile
 
       - name: Generate stats card
+        id: stats
+        continue-on-error: true
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: "username=${{ github.repository_owner }}&show_icons=true&hide_title=true&count_private=true"
           path: .stats-card.svg
-          token: ${{ secrets.STATS_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || github.token }}
+          fail_on_error: true
+
+      - name: Generate public stats when the personal token is unavailable
+        if: steps.stats.outcome == 'failure'
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&show_icons=true&hide_title=true&count_private=false"
+          path: .stats-card.svg
+          token: ${{ github.token }}
+          fail_on_error: true
 
       - name: Validate and install stats card
         run: python3 scripts/update_github_stats.py .stats-card.svg "$STATS_CARD_PATH"
