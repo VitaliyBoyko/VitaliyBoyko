@@ -276,7 +276,7 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 - My dad wanted me to be a "Real Man" so bad that I became a developer instead. 😄
 
 ### 📊 GitHub Stats
-![GitHub Stats](./profile/stats-40558507413.svg)
+![GitHub Stats](./profile/stats-40576096849.svg)
 
 Project stars include my personal repositories, [MageLens](https://github.com/MageLens/MageLens), and the [Magento IDE plugin](https://github.com/magento/magento2-phpstorm-plugin) I maintain.
 
