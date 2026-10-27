@@ -35,7 +35,7 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 
 ## 🔎 MageLens
 
-[MageLens](https://github.com/VitaliyBoyko/MageLens) boots a local Magento 2 environment in Docker and collects PHP, JavaScript, and HTML template coverage from a Cypress or Playwright run. Choose Luma or Hyvä with either runner, and see executed PHP/`.phtml` lines, browser JavaScript, and template bindings in one combined report.
+[MageLens](https://github.com/MageLens/MageLens) boots a local Magento 2 environment in Docker and collects PHP, JavaScript, and HTML template coverage from a Cypress or Playwright run. Choose Luma or Hyvä with either runner, and see executed PHP/`.phtml` lines, browser JavaScript, and template bindings in one combined report.
 
 ## 🧩 JetBrains Plugins
 
@@ -114,12 +114,12 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
   <tr>
     <td width="96" align="center">
       <a href="https://packagist.org/packages/vitaliyboyko/pcov">
-        <img src="https://github.com/VitaliyBoyko/MageLens/raw/main/assets/magelens.svg" alt="MageLens" width="72">
+        <img src="https://github.com/MageLens/MageLens/raw/main/assets/magelens.svg" alt="MageLens" width="72">
       </a>
     </td>
     <td>
       <strong><a href="https://packagist.org/packages/vitaliyboyko/pcov">vitaliyboyko/pcov</a></strong><br>
-      PCOV coverage driver optimized for large PHP test suites and coverage engine for the <a href="https://github.com/VitaliyBoyko/MageLens">MageLens</a> project.<br>
+      PCOV coverage driver optimized for large PHP test suites and coverage engine for the <a href="https://github.com/MageLens/MageLens">MageLens</a> project.<br>
       <a href="https://packagist.org/packages/vitaliyboyko/pcov">
         <img src="https://img.shields.io/packagist/dt/vitaliyboyko/pcov" alt="pcov downloads">
       </a>
