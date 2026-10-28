@@ -7,8 +7,6 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 - Reconnect disconnected platforms and restore control where delivery has become messy.
 - Guide teams through the noise, cutting through hype to focus on proven approaches and real business value.
 
-**Website:** [vitboi.dev](https://vitboi.dev/) — deterministic tools for more predictable AI: Seq telemetry, code coverage, and Magento MCP tooling.
-
 ## 🔭 Current Focus
 - Commercial Magento and NetSuite projects for The Cary Company
 - Expanding automated test coverage with Cypress and Playwright
