@@ -12,7 +12,6 @@ on:
       - README.md
       - .github/workflows/update-github-stats.yml
       - scripts/update_github_stats.py
-      - scripts/test_update_github_stats.py
 
 permissions:
   contents: write
@@ -32,16 +31,13 @@ jobs:
       - name: Create profile asset directory
         run: mkdir -p profile
 
-      - name: Test stats publishing
-        run: python3 -m unittest discover -s scripts -p 'test_*.py'
-
       - name: Generate stats card
         id: stats
         continue-on-error: true
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: "username=${{ github.repository_owner }}&show_icons=true&hide_title=true&count_private=true&number_format=long"
+          options: "username=${{ github.repository_owner }}&show_icons=true&hide_title=true&count_private=true"
           path: .stats-card.svg
           token: ${{ secrets.STATS_TOKEN || github.token }}
           fail_on_error: true
@@ -51,15 +47,12 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: "username=${{ github.repository_owner }}&show_icons=true&hide_title=true&count_private=false&number_format=long"
+          options: "username=${{ github.repository_owner }}&show_icons=true&hide_title=true&count_private=false"
           path: .stats-card.svg
           token: ${{ github.token }}
           fail_on_error: true
 
       - name: Validate and install stats card
-        env:
-          GH_TOKEN: ${{ github.token }}
-          PROFILE_OWNER: ${{ github.repository_owner }}
         run: python3 scripts/update_github_stats.py .stats-card.svg "$STATS_CARD_PATH"
 
       - name: Commit cards
@@ -73,4 +66,3 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Update GitHub stats cards"
           git push
-

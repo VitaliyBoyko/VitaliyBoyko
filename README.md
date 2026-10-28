@@ -281,8 +281,6 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 ### 📊 GitHub Stats
 ![GitHub Stats](./profile/stats-40651100716.svg)
 
-Project stars include my personal repositories, [MageLens](https://github.com/MageLens/MageLens), and the [Magento IDE plugin](https://github.com/magento/magento2-phpstorm-plugin) I maintain.
-
 ## ☕ Support Me
 
 - If you enjoy my work, you can [buy me a coffee](https://buymeacoffee.com/vitalii_b) to support me!
