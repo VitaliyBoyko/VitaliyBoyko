@@ -275,7 +275,7 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 
 ## 📫 Reach Me At
 - Website: [vitboi.dev](https://vitboi.dev/)
-- Email: vitaliyboyko@i.ua
+- Email: [v.boi@magelens.dev](mailto:v.boi@magelens.dev)
 - LinkedIn: [@vitalii-boiko](https://www.linkedin.com/in/vitalii-boiko-3ba269232/)
 
 ## ⚡ Fun fact
