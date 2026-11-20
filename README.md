@@ -45,9 +45,12 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
     <td>
       <strong><a href="https://github.com/MageLens/MageLens">MageLens</a> · Full-stack coverage for Magento</strong><br>
       A community-built toolkit that boots Magento 2 in Docker and collects PHP, JavaScript, and HTML template coverage from Cypress or Playwright tests. Supports Luma and Hyvä, with results in one combined report.<br><br>
-      Powered by the <a href="https://packagist.org/packages/vitaliyboyko/pcov">PCOV coverage engine</a> and <a href="https://www.npmjs.com/package/@vitaliiboiko/magento-template-coverage">Magento Template Coverage</a>.<br><br>
-      <a href="https://packagist.org/packages/vitaliyboyko/pcov">
-        <img src="https://img.shields.io/packagist/dt/vitaliyboyko/pcov?label=PCOV%20engine%20downloads&amp;color=6366f1" alt="PCOV engine downloads">
+      Powered by the <a href="https://github.com/MageLens/pcov">PCOV coverage engine</a> and <a href="https://github.com/MageLens/magento-template-coverage">Magento Template Coverage</a>.<br><br>
+      <a href="https://github.com/MageLens/pcov">
+        <img src="https://img.shields.io/packagist/dt/magelens/pcov?label=PCOV%20engine%20downloads&amp;color=6366f1" alt="PCOV engine downloads">
+      </a>
+      <a href="https://github.com/MageLens/magento-template-coverage">
+        <img src="https://img.shields.io/npm/dt/@magelens/magento-template-coverage?label=Template%20coverage%20downloads&amp;color=6366f1" alt="Magento Template Coverage downloads">
       </a><br>
       <a href="https://magelens.dev">Website</a> · <a href="https://github.com/MageLens/MageLens">GitHub</a> · <a href="https://github.com/MageLens/MageLens/wiki">Documentation</a>
     </td>
