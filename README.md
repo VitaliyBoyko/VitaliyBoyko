@@ -35,7 +35,24 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 
 ## 🔎 MageLens
 
-[MageLens](https://github.com/MageLens/MageLens) boots a local Magento 2 environment in Docker and collects PHP, JavaScript, and HTML template coverage from a Cypress or Playwright run. Choose Luma or Hyvä with either runner, and see executed PHP/`.phtml` lines, browser JavaScript, and template bindings in one combined report.
+<table>
+  <tr>
+    <td width="96" align="center">
+      <a href="https://github.com/MageLens/MageLens">
+        <img src="https://github.com/MageLens/MageLens/raw/main/assets/magelens.svg" alt="MageLens" width="72">
+      </a>
+    </td>
+    <td>
+      <strong><a href="https://github.com/MageLens/MageLens">MageLens</a> · Full-stack coverage for Magento</strong><br>
+      A community-built toolkit that boots Magento 2 in Docker and collects PHP, JavaScript, and HTML template coverage from Cypress or Playwright tests. Supports Luma and Hyvä, with results in one combined report.<br><br>
+      Powered by the <a href="https://packagist.org/packages/vitaliyboyko/pcov">PCOV coverage engine</a> and <a href="https://www.npmjs.com/package/@vitaliiboiko/magento-template-coverage">Magento Template Coverage</a>.<br><br>
+      <a href="https://packagist.org/packages/vitaliyboyko/pcov">
+        <img src="https://img.shields.io/packagist/dt/vitaliyboyko/pcov?label=PCOV%20engine%20downloads&amp;color=6366f1" alt="PCOV engine downloads">
+      </a><br>
+      <a href="https://magelens.dev">Website</a> · <a href="https://github.com/MageLens/MageLens">GitHub</a> · <a href="https://github.com/MageLens/MageLens/wiki">Documentation</a>
+    </td>
+  </tr>
+</table>
 
 ## 🧩 JetBrains Plugins
 
@@ -84,44 +101,6 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
       Magento 2 local-development Seq instrumentation module for structured logging, request tracing, and observability workflows during Adobe Commerce development.<br>
       <a href="https://packagist.org/packages/vitaliyboyko/magento-seq">
         <img src="https://img.shields.io/packagist/dt/vitaliyboyko/magento-seq" alt="magento-seq downloads">
-      </a>
-    </td>
-  </tr>
-</table>
-
-## 📦 npm Packages
-
-<table>
-  <tr>
-    <td width="96" align="center">
-      <a href="https://www.npmjs.com/package/@vitaliiboiko/magento-template-coverage">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" width="72">
-      </a>
-    </td>
-    <td>
-      <strong><a href="https://www.npmjs.com/package/@vitaliiboiko/magento-template-coverage">@vitaliiboiko/magento-template-coverage</a></strong><br>
-      Template execution and DOM-presence coverage for Magento, with Cypress and Playwright support for Knockout, Underscore, and regular Alpine directives.<br>
-      <a href="https://www.npmjs.com/package/@vitaliiboiko/magento-template-coverage">
-        <img src="https://img.shields.io/npm/dt/@vitaliiboiko/magento-template-coverage" alt="magento-template-coverage downloads">
-      </a>
-    </td>
-  </tr>
-</table>
-
-## 📦 PIE Packages
-
-<table>
-  <tr>
-    <td width="96" align="center">
-      <a href="https://packagist.org/packages/vitaliyboyko/pcov">
-        <img src="https://github.com/MageLens/MageLens/raw/main/assets/magelens.svg" alt="MageLens" width="72">
-      </a>
-    </td>
-    <td>
-      <strong><a href="https://packagist.org/packages/vitaliyboyko/pcov">vitaliyboyko/pcov</a></strong><br>
-      PCOV coverage driver optimized for large PHP test suites and coverage engine for the <a href="https://github.com/MageLens/MageLens">MageLens</a> project.<br>
-      <a href="https://packagist.org/packages/vitaliyboyko/pcov">
-        <img src="https://img.shields.io/packagist/dt/vitaliyboyko/pcov" alt="pcov downloads">
       </a>
     </td>
   </tr>
