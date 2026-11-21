@@ -47,7 +47,7 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
       A community-built toolkit that boots Magento 2 in Docker and collects PHP, JavaScript, and HTML template coverage from Cypress or Playwright tests. Supports Luma and Hyvä, with results in one combined report.<br><br>
       Powered by the <a href="https://github.com/MageLens/PCOV">PCOV coverage engine</a> and <a href="https://github.com/MageLens/MagentoTemplateCoverage">Magento Template Coverage</a>.<br><br>
       <a href="https://github.com/MageLens/PCOV">
-        <img src="https://img.shields.io/packagist/dt/magelens/pcov?label=PCOV%20engine%20downloads&amp;color=6366f1" alt="PCOV engine downloads">
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FVitaliyBoyko%2FVitaliyBoyko%2Fmain%2Fprofile%2Fpcov-downloads.json" alt="PCOV engine downloads">
       </a>
       <a href="https://github.com/MageLens/MagentoTemplateCoverage">
         <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FVitaliyBoyko%2FVitaliyBoyko%2Fmain%2Fprofile%2Ftemplate-coverage-downloads.json" alt="Magento Template Coverage downloads">
