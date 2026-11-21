@@ -50,7 +50,7 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
         <img src="https://img.shields.io/packagist/dt/magelens/pcov?label=PCOV%20engine%20downloads&amp;color=6366f1" alt="PCOV engine downloads">
       </a>
       <a href="https://github.com/MageLens/MagentoTemplateCoverage">
-        <img src="https://img.shields.io/npm/dt/@magelens/magento-template-coverage?label=Template%20coverage%20downloads&amp;color=6366f1" alt="Magento Template Coverage downloads">
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FVitaliyBoyko%2FVitaliyBoyko%2Fmain%2Fprofile%2Ftemplate-coverage-downloads.json" alt="Magento Template Coverage downloads">
       </a><br>
       <a href="https://magelens.dev">Website</a> · <a href="https://github.com/MageLens/MageLens">GitHub</a> · <a href="https://github.com/MageLens/MageLens/wiki">Documentation</a>
     </td>
