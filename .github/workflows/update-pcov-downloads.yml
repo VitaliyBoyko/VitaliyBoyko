@@ -22,7 +22,7 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-      - name: Calculate combined lifetime Packagist downloads
+      - name: Calculate MageLens lifetime Packagist downloads
         run: python3 scripts/update-pcov-downloads.py
       - name: Commit updated badge
         run: |
@@ -33,7 +33,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/pcov-downloads.json
-          git commit -m "Update combined PCOV downloads badge [skip ci]"
+          git commit -m "Update MageLens PCOV downloads badge [skip ci]"
           for attempt in 1 2 3 4 5; do
             if ! git pull --rebase origin main; then
               echo "::error::Could not rebase the badge update onto main."

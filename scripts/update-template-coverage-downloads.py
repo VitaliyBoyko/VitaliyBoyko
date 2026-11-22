@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a Shields.io badge from lifetime npm downloads across both package scopes."""
+"""Generate a Shields.io badge from lifetime npm downloads for MageLens."""
 
 import json
 import time
@@ -10,7 +10,6 @@ from urllib.parse import quote
 from urllib.request import Request, urlopen
 
 PACKAGES = (
-    "@vitaliiboiko/magento-template-coverage",
     "@magelens/magento-template-coverage",
 )
 OUTPUT = Path(__file__).resolve().parents[1] / "profile/template-coverage-downloads.json"
@@ -67,7 +66,7 @@ def main() -> None:
     rendered = json.dumps(badge, indent=2) + "\n"
     if not OUTPUT.exists() or OUTPUT.read_text(encoding="utf-8") != rendered:
         OUTPUT.write_text(rendered, encoding="utf-8")
-    print(f"npm downloads through {last_complete_day}: {counts}; combined: {total}")
+    print(f"npm downloads through {last_complete_day}: {counts}; total: {total}")
 
 
 if __name__ == "__main__":

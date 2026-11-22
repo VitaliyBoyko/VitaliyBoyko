@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a Shields.io badge using combined Packagist lifetime installs for PCOV."""
+"""Build a Shields.io badge using Packagist lifetime installs for MageLens PCOV."""
 
 import json
 import time
@@ -8,7 +8,7 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
 
-PACKAGES = ("vitaliyboyko/pcov", "magelens/pcov")
+PACKAGES = ("magelens/pcov",)
 OUTPUT = Path(__file__).resolve().parents[1] / "profile/pcov-downloads.json"
 
 
@@ -51,7 +51,7 @@ def main() -> None:
     rendered = json.dumps(badge, indent=2) + "\n"
     if not OUTPUT.exists() or OUTPUT.read_text(encoding="utf-8") != rendered:
         OUTPUT.write_text(rendered, encoding="utf-8")
-    print(f"Packagist lifetime downloads: {counts}; combined: {total}")
+    print(f"Packagist lifetime downloads: {counts}; total: {total}")
 
 
 if __name__ == "__main__":
