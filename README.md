@@ -209,16 +209,8 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
     </td>
   </tr>
   <tr>
-    <td width="33%" valign="top">
-      <a href="https://www.youtube.com/watch?v=XYBGkM8IdII">
-        <img src="https://img.youtube.com/vi/XYBGkM8IdII/hqdefault.jpg" alt="I Tried Replacing Codex With Local LLMs for Magento Coding… Reality Check" width="100%">
-      </a><br>
-      <strong><a href="https://www.youtube.com/watch?v=XYBGkM8IdII">I Tried Replacing Codex With Local LLMs for Magento Coding… Reality Check</a></strong>
-    </td>
-  </tr>
-  <tr>
     <td colspan="3" align="center">
-      <strong><a href="https://www.youtube.com/@vitaliiMagentoDeveloper">View more videos on YouTube</a></strong>
+      <strong><a href="https://www.youtube.com/channel/UCHttZmZO962Z0Z3fLyoDrKA/videos">View more videos on YouTube</a></strong>
     </td>
   </tr>
 </table>

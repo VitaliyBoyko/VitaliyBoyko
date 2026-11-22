@@ -14,9 +14,9 @@ import xml.etree.ElementTree as ET
 README_PATH = os.environ.get("README_PATH", "README.md")
 START_MARKER = "<!-- youtube-videos:start -->"
 END_MARKER = "<!-- youtube-videos:end -->"
-MAX_VIDEOS = int(os.environ.get("YOUTUBE_MAX_VIDEOS", "10"))
+MAX_VIDEOS = int(os.environ.get("YOUTUBE_MAX_VIDEOS", "9"))
 VIDEOS_PER_ROW = 3
-YOUTUBE_CHANNEL_URL = "https://www.youtube.com/@vitaliiMagentoDeveloper"
+YOUTUBE_CHANNEL_URL = "https://www.youtube.com/channel/UCHttZmZO962Z0Z3fLyoDrKA/videos"
 
 ATOM_NS = {"atom": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
 
