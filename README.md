@@ -26,7 +26,7 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 
 ## 🌟 Featured Work & Recognition
 - Featured by Adobe: [Meet the world's top Magento ecommerce developers](https://business.adobe.com/blog/the-latest/meet-worlds-top-magento-ecommerce-developers)
-- Featured in Hyvä Hot Cakes: my [MCP-enabled Magento PhpStorm plugin](https://www.linkedin.com/pulse/hot-cakes-61-replaceable-100-here-ready-magento-marbella-10042026-tkwve) and [AI-assisted Magento debugging demo](https://www.linkedin.com/pulse/hot-cakes-familiar-faces-ecosystem-energy-magento-momentum-01052026-tahxe)
+- Christian Münch featured the [n98-magerun2 integration I built for the Magento PhpStorm plugin](https://magerun.net/cli-wrappers-helping-ai-run-magento-commands-in-the-right-environment/), showing how AI agents use MCP to discover a project’s CLI wrappers and available n98-magerun2 commands.
 - Co-host of [The Commerce DevCast](https://thecommercedevcast.github.io/about.html): discussions on Magento, Adobe Commerce, architecture, automated testing, and industry developments
 - Recognized by Atwix among its top contributors to [Magento Multi-Source Inventory (MSI)](https://www.atwix.com/magento-2/multi-source-inventory-in-magento-2-3/)
 - Listed by Meetanshi: [Top 50 Contributors of Magento Community 2019](https://meetanshi.com/blog/top-50-contributors-of-magento-community-2019/)
