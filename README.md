@@ -62,20 +62,6 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
 <table>
   <tr>
     <td width="96" align="center">
-      <a href="https://plugins.jetbrains.com/plugin/31358-seq-mcp">
-        <img src="https://raw.githubusercontent.com/VitaliyBoyko/seq-intellij-mcp/master/src/main/resources/META-INF/pluginIcon.svg" alt="Seq MCP" width="72">
-      </a>
-    </td>
-    <td>
-      <strong><a href="https://plugins.jetbrains.com/plugin/31358-seq-mcp">Seq MCP</a></strong><br>
-      IntelliJ IDEA plugin for bringing Seq observability workflows and Model Context Protocol integration into the IDE.<br>
-      <a href="https://plugins.jetbrains.com/plugin/31358-seq-mcp">
-        <img src="https://img.shields.io/jetbrains/plugin/d/31358" alt="Seq MCP downloads">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="96" align="center">
       <a href="https://plugins.jetbrains.com/plugin/8024">
         <img src="https://raw.githubusercontent.com/magento/magento2-phpstorm-plugin/5.4.0-develop/src/main/resources/META-INF/pluginIcon.svg" alt="Magento 2 and Adobe Commerce" width="72">
       </a>
@@ -88,22 +74,17 @@ Adobe Commerce architect and Magento developer focused on large B2B projects, de
       </a>
     </td>
   </tr>
-</table>
-
-## 📦 Magento Modules
-
-<table>
   <tr>
     <td width="96" align="center">
-      <a href="https://packagist.org/packages/vitaliyboyko/magento-seq">
-        <img src="https://raw.githubusercontent.com/VitaliyBoyko/seq-intellij-mcp/master/src/main/resources/META-INF/pluginIcon.svg" alt="magento-seq" width="72">
+      <a href="https://plugins.jetbrains.com/plugin/31358-seq-mcp">
+        <img src="https://raw.githubusercontent.com/VitaliyBoyko/seq-intellij-mcp/master/src/main/resources/META-INF/pluginIcon.svg" alt="Seq MCP" width="72">
       </a>
     </td>
     <td>
-      <strong><a href="https://packagist.org/packages/vitaliyboyko/magento-seq">magento-seq</a></strong><br>
-      Magento 2 local-development Seq instrumentation module for structured logging, request tracing, and observability workflows during Adobe Commerce development.<br>
-      <a href="https://packagist.org/packages/vitaliyboyko/magento-seq">
-        <img src="https://img.shields.io/packagist/dt/vitaliyboyko/magento-seq" alt="magento-seq downloads">
+      <strong><a href="https://plugins.jetbrains.com/plugin/31358-seq-mcp">Seq MCP</a></strong><br>
+      IntelliJ IDEA plugin for bringing Seq observability workflows and Model Context Protocol integration into the IDE.<br>
+      <a href="https://plugins.jetbrains.com/plugin/31358-seq-mcp">
+        <img src="https://img.shields.io/jetbrains/plugin/d/31358" alt="Seq MCP downloads">
       </a>
     </td>
   </tr>
